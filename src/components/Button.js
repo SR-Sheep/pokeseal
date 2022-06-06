@@ -13,7 +13,10 @@ function Button({setPokeNumber}){
 
     return (
         <div>
-            <button onClick={getRandomNumber}>포켓몬 뽑기</button>
+            <button onClick={getRandomNumber}>
+                {/* 시작시 포켓몬 뽑기, 이외 다시 뽑기 */}
+                {no===0?"포켓몬 뽑기":"다시 뽑기"}
+            </button>
         </div>
     );
 }

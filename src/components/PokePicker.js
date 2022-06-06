@@ -1,7 +1,8 @@
-import {createContext, useContext, useState } from "react";
+import {createContext, useState } from "react";
 import "../css/pokePicker.css"
 import Button from "./Button";
 import PokeImg from "./PokeImg";
+import PokeInfo from "./PokeInfo";
 
 
 export const PokeNumberContext = createContext();
@@ -14,6 +15,7 @@ function PokePicker(){
         <PokeNumberContext.Provider value={pokeNumber}>
             <div id="picker">
                 <PokeImg></PokeImg>
+                {pokeNumber!==0&&<PokeInfo></PokeInfo>}
                 <Button setPokeNumber={setPokeNumber}></Button>
             </div>
         </PokeNumberContext.Provider>

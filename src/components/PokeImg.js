@@ -1,15 +1,15 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { PokeNumberContext } from "./PokePicker";
 import '../css/pokeImg.css'
 
 
 function PokeImg(){
     //포켓몬 번호
-    const pokeNumber = useContext(PokeNumberContext);
+    const pokeNumber = useContext(PokeNumberContext) -1;
     //클래스 네임
     let pokeName;
-    
-    if(pokeNumber===0){
+
+    if(pokeNumber<0){
         pokeName="poke_img ball";
     }else{
         //이미지 파일 순서
@@ -22,16 +22,15 @@ function PokeImg(){
         const y = Math.floor(leftNumber/4)+1;
         //클래스 네임
         pokeName = "poke_img poke_page"+page+" x"+x+" y"+y;
+        // pokeName="tmp x y";
     }
 
-    
-    
-    // console.log(pokeNumber +" "+page);
-
     return(
+        <>
         <div className={pokeName}>
             {/* {pokeNumber} */}
         </div>
+        </>
     );
 }
 

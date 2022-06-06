@@ -2,6 +2,7 @@
     width: 105px;
     height: 140px;
     background-repeat: no-repeat;
+    margin: auto;
 }
 
 .ball{
@@ -67,4 +68,35 @@
 }
 .y5{
     background-position-y: -660px;
+}
+
+/* 32줄 */
+.tmp{
+    width: 160px;
+    height: 205px;
+    background-repeat: no-repeat;
+    background-image: url("../assets/pokemon_list.jpg");
+    /* border: 1px solid red; */
+}
+
+.x{
+    background-position-x: -10px; 
+    /* background-position-x: -200px; 
+    background-position-x: -385px; 
+    background-position-x: -570px; 
+    background-position-x: -755px;  */
+}
+
+.y{
+    /* 237 236 */
+    /* 1185 *n + 4 */
+    /* background-position-y: -4px; */
+    /* background-position-y: -241px; */
+    /* background-position-y: -477px; */
+    /* background-position-y: -713px; */
+    /* background-position-y: -950px; */
+    background-position-y: -1187px; 
+    /* background-position-y: -1187px; */
+    /* background-position-y: -1424px; */
+    /* background-position-y: -3552px; */
 }
