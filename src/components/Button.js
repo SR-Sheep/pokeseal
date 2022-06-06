@@ -13,7 +13,7 @@ function Button({setPokeNumber}){
 
     return (
         <div>
-            <button onClick={getRandomNumber}>버튼</button>
+            <button onClick={getRandomNumber}>포켓몬 뽑기</button>
         </div>
     );
 }
