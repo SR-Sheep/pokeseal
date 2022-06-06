@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pokeseal/static/css/main.d1bf08b1.css",
+    "main.js": "/pokeseal/static/js/main.00a6449d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/pokeseal/static/js/787.28cb0dcd.chunk.js",
+    "static/media/pokemon_list.jpg": "/pokeseal/static/media/pokemon_list.c6be0c04ae67e8e3a3ac.jpg",
+    "static/media/poke_empty7.png": "/pokeseal/static/media/poke_empty7.27cf0a6b9226ad4b6bb9.png",
+    "static/media/poke_empty4.png": "/pokeseal/static/media/poke_empty4.3c442816749f572864fc.png",
+    "static/media/poke_empty5.png": "/pokeseal/static/media/poke_empty5.a47e49d426f1ff6ee2e8.png",
+    "static/media/poke_empty8.png": "/pokeseal/static/media/poke_empty8.c09a204cba07dad164f7.png",
+    "static/media/poke_empty2.png": "/pokeseal/static/media/poke_empty2.5150038041130e01d015.png",
+    "static/media/poke_empty3.png": "/pokeseal/static/media/poke_empty3.dc2be82abd715a2c9887.png",
+    "static/media/poke_empty1.png": "/pokeseal/static/media/poke_empty1.f1236e431c411560f8b5.png",
+    "static/media/poke_empty6.png": "/pokeseal/static/media/poke_empty6.15c77d81fb97f493f5a8.png",
+    "static/media/pokeball.png": "/pokeseal/static/media/pokeball.c4af2b51c91698948faf.png",
+    "index.html": "/pokeseal/index.html",
+    "main.d1bf08b1.css.map": "/pokeseal/static/css/main.d1bf08b1.css.map",
+    "main.00a6449d.js.map": "/pokeseal/static/js/main.00a6449d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/pokeseal/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1bf08b1.css",
+    "static/js/main.00a6449d.js"
+  ]
+}
