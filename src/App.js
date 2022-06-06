@@ -1,7 +1,4 @@
-import logo from './assets/logo.svg';
-import Button from './components/Button';
-import './containers/App.css';
-import PokeImg from './components/PokeImg';
+import './css/App.css';
 import PokePicker from './components/PokePicker';
 
 function App() {
