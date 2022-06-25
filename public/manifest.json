@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "씰뮬레이터",
+  "name": "띠부띠부씰 시뮬레이터",
   "icons": [
     {
       "src": "favicon.ico",
